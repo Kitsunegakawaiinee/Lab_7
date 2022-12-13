@@ -6,7 +6,7 @@ using namespace std;
 string func1(string x){
 	int L = x.size();
 	string y = "";
-	for (int i = 0; i < L ; i++)
+	for (int i ; i < L ; i++)
 	{
 		y += x[L-i-1];
 	}
